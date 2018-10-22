@@ -1,2 +1,2 @@
 # yellasign
-Simple communication primitives for production teams ; )
+Simple communication primitive for production teams ; )
