@@ -19,7 +19,7 @@ function Form(props) {
                 <label htmlFor="dynamic-label-input">Company</label>
               </div>
               <div className="form-group">
-                <input type="number" id="dynamic-label-input" placeholder="Number of Signs"/>
+                <input type="number" min= "1" id="dynamic-label-input" placeholder="Number of Signs"/>
                 <label htmlFor="dynamic-label-input">Number of Signs</label>
               </div>
               <div className="form-group">
