@@ -17,7 +17,7 @@ class App extends Component {
 
 
 handleClick = () => {
-  console.log('fire fightgit');
+  console.log(this.state.arrow);
 
     if(this.state.arrow === false) {
 
@@ -40,7 +40,7 @@ handleClick = () => {
           <div className="form-sign">
               <Form handleClick={this.handleClick} arrow={this.state.arrow}/>
             <div className="sign">
-              <Sign/>
+              <Sign arrow={this.state.arrow}/>
             </div>
           </div>
         </div>

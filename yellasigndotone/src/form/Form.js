@@ -34,7 +34,7 @@ function Form(props) {
                 <p>Arrow Selector<br/>(Slide for Arrow Choices)</p>
                 <label className="switch">
                   <input type="checkbox" className="switch-input" onClick={props.handleClick}/>
-                  <span className="switch-label" data-on="UniArrow" data-off="BiArrow" ></span>
+                  <span className="switch-label" data-on="BiArrow" data-off="UniArrow" ></span>
                   <span className="switch-handle"></span>
                 </label>
               </div>
