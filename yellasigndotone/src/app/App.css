@@ -12,7 +12,7 @@
 .mainLogoH {
   color: yellow;
   font-family: 'Monoton', cursive;
-  font-size: 6em;
+  font-size: 6.3em;
   text-shadow: 4px 4px 4px #000000;
 }
 
@@ -23,15 +23,17 @@
 }
 
 h3 {
-  margin-top: -8%;
+  margin-top: -7%;
 }
 
 .luv {
   height: 350px;
   width: auto;
-  margin-top: -14%;
+  margin-top: -14.3%;
   padding-left: 4%;
   margin-bottom: -4%;
+  padding-bottom: 1%;
+  padding-top: .5%;
 }
 
 .form-sign {
