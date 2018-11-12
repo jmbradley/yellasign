@@ -21,7 +21,7 @@ function Form(props) {
                 <label htmlFor="dynamic-label-input">Company</label>
               </div>
               <div className="form-group">
-                <input type="text" id="dynamic-label-input" placeholder="Email Address" name="Email Address" required/>
+                <input type="email" id="dynamic-label-input" placeholder="Email Address" name="Email Address" required/>
                 <label htmlFor="dynamic-label-input">Email Address</label>
               </div>
               <div className="form-group">
@@ -38,8 +38,8 @@ function Form(props) {
               </div>
               <div className="container">
                 <p>Arrow Selector<br/>(Slide for Arrow Choices)</p>
-                <label className="switch">
-                  <input type="checkbox" className="switch-input" onClick={props.handleClick} htmlFor="checkbox" name="Type of Arrow"/>
+                <label className="switch" htmlFor="switch-input">
+                  <input type="checkbox" className="switch-input" id="BiArrow" onClick={props.handleClick} name="Type of Arrow"/>
                   <span className="switch-label" data-on="BiArrow" data-off="UniArrow"  />
                   <span className="switch-handle"/>
                 </label>
