@@ -1,7 +1,8 @@
 import React from 'react';
 // import { Form, Text } from 'react-form';
 
-
+/////Do we want to use formcarry? Look into customization....btw it jives well with
+/// REACT(and is well documented)....check into reporting offered by formcarry
 
 import './Form.css';
 
