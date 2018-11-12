@@ -13,35 +13,35 @@ function Form(props) {
             <h2 className="formheader">↓ Info Here ↓</h2><br/>
             <h2 className="formheader">↓</h2>
               <div className="form-group">
-                <input type="text" id="dynamic-label-input" placeholder="Name" name="Customer Name"/>
+                <input type="text" id="dynamic-label-input" placeholder="Name" name="Customer Name" required/>
                 <label htmlFor="dynamic-label-input">Name</label>
               </div>
               <div className="form-group">
-                <input type="text" id="dynamic-label-input" placeholder="Company" name="Company Name"/>
+                <input type="text" id="dynamic-label-input" placeholder="Company" name="Company Name" required/>
                 <label htmlFor="dynamic-label-input">Company</label>
               </div>
               <div className="form-group">
-                <input type="text" id="dynamic-label-input" placeholder="Email Address" name="Email Address"/>
+                <input type="text" id="dynamic-label-input" placeholder="Email Address" name="Email Address" required/>
                 <label htmlFor="dynamic-label-input">Email Address</label>
               </div>
               <div className="form-group">
-                <input type="number" min= "1" id="dynamic-label-input" placeholder="Number of Signs" name="Number of Signs"/>
+                <input type="number" min= "1" id="dynamic-label-input" placeholder="Number of Signs" name="Number of Signs" required/>
                 <label htmlFor="numberofsigns">Number of Signs</label>
               </div>
               <div className="form-group">
-                <input type="text" id="dynamic-label-input" placeholder="Sign Text" htmlFor="signtext" name="Sign Text"/>
+                <input type="text" id="dynamic-label-input" placeholder="Sign Text" htmlFor="signtext" name="Sign Text" required/>
                 <label>Sign Text</label>
               </div>
               <div className="form-group2">
-                <label className ="form-group" htmlFor="Date Needed">Date Signs Needed</label>
+                <label className ="form-group" htmlFor="dateneeded">Date Signs Needed</label>
                 <input type="date" name="Date Needed" id="dateneeded" />
               </div>
               <div className="container">
                 <p>Arrow Selector<br/>(Slide for Arrow Choices)</p>
                 <label className="switch">
-                  <input type="checkbox" className="switch-input" onClick={props.handleClick}htmlFor="Type of Arrow" name="Type of Arrow"/>
-                  <span className="switch-label" data-on="BiArrow" data-off="UniArrow" ></span>
-                  <span className="switch-handle"></span>
+                  <input type="checkbox" className="switch-input" onClick={props.handleClick} htmlFor="checkbox" name="Type of Arrow"/>
+                  <span className="switch-label" data-on="BiArrow" data-off="UniArrow"  />
+                  <span className="switch-handle"/>
                 </label>
               </div>
               <br/>
