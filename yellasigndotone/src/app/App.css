@@ -9,6 +9,10 @@
   background-size: cover;
 }
 
+.mainLogo {
+  padding-left: 3%;
+}
+
 .mainLogoH {
   color: yellow;
   font-family: 'Monoton', cursive;

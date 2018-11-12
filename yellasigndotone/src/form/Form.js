@@ -10,8 +10,7 @@ function Form(props) {
     return (
         <div className="form">
           <form className="form-fields" action="https://formcarry.com/s/jdcIJfC6e3R" method="POST" accept-charset="UTF-8" >
-            <h2 className="formheader">↓ Info Here ↓</h2><br/>
-            <h2 className="formheader">↓</h2>
+            <h2 className="formheader"> Fill This Out</h2>
               <div className="form-group">
                 <input type="text" id="dynamic-label-input" placeholder="Name" name="Customer Name" required/>
                 <label htmlFor="dynamic-label-input">Name</label>
@@ -38,7 +37,7 @@ function Form(props) {
               </div>
               <div className="container">
                 <p>Arrow Selector<br/>(Slide for Arrow Choices)</p>
-                <label className="switch" htmlFor="switch-input">
+                <label className="switch" htmlFor="BiArrow">
                   <input type="checkbox" className="switch-input" id="BiArrow" onClick={props.handleClick} name="Type of Arrow"/>
                   <span className="switch-label" data-on="BiArrow" data-off="UniArrow"  />
                   <span className="switch-handle"/>
