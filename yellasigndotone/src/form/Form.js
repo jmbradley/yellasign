@@ -29,18 +29,18 @@ function Form(props) {
                 <label htmlFor="numberofsigns">Number of Signs</label>
               </div>
               <div className="form-group">
-                <input type="text" id="dynamic-label-input" placeholder="Sign Text" htmlFor="signtext"/>
+                <input type="text" id="dynamic-label-input" placeholder="Sign Text" htmlFor="signtext" name="Sign Text"/>
                 <label>Sign Text</label>
               </div>
               <div className="form-group2">
                 <label className ="form-group" htmlFor="Date Needed">Date Signs Needed</label>
-                <input type="date" name="dateneeded" id="dateneeded" />
+                <input type="date" name="Date Needed" id="dateneeded" />
               </div>
               <div className="container">
                 <p>Arrow Selector<br/>(Slide for Arrow Choices)</p>
                 <label className="switch">
-                  <input type="checkbox" className="switch-input" onClick={props.handleClick} />
-                  <span className="switch-label" data-on="BiArrow" data-off="UniArrow" htmlFor="Type of Arrow" ></span>
+                  <input type="checkbox" className="switch-input" onClick={props.handleClick}htmlFor="Type of Arrow" name="Type of Arrow"/>
+                  <span className="switch-label" data-on="BiArrow" data-off="UniArrow" ></span>
                   <span className="switch-handle"></span>
                 </label>
               </div>
