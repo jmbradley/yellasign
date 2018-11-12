@@ -9,8 +9,9 @@ import './Form.css';
 function Form(props) {
     return (
         <div className="form">
-          <form className="form-fields">
-            <h2 className="formheader">Enter Info Below</h2>
+          <form className="form-fields" action="https://formcarry.com/s/jdcIJfC6e3R" method="POST" accept-charset="UTF-8" >
+            <h2 className="formheader">↓ Info Here ↓</h2><br/>
+            <h2 className="formheader">↓</h2>
               <div className="form-group">
                 <input type="text" id="dynamic-label-input" placeholder="Name"/>
                 <label htmlFor="dynamic-label-input">Name</label>
@@ -18,6 +19,10 @@ function Form(props) {
               <div className="form-group">
                 <input type="text" id="dynamic-label-input" placeholder="Company"/>
                 <label htmlFor="dynamic-label-input">Company</label>
+              </div>
+              <div className="form-group">
+                <input type="text" id="dynamic-label-input" placeholder="Email Address"/>
+                <label htmlFor="dynamic-label-input">Email Address</label>
               </div>
               <div className="form-group">
                 <input type="number" min= "1" id="dynamic-label-input" placeholder="Number of Signs"/>
