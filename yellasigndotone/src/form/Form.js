@@ -9,7 +9,7 @@ import './Form.css';
 function Form(props) {
     return (
         <div className="form">
-          <form className="form-fields" action="https://formcarry.com/s/jdcIJfC6e3R" method="POST" accept-charset="UTF-8" >
+          <form className="form-fields" action="https://formcarry.com/s/jdcIJfC6e3R" method="POST" accepcharset="UTF-8" >
             <h2 className="formheader"> Fill This Out</h2>
               <div className="form-group">
                 <input type="text" id="dynamic-label-input" placeholder="Name" name="Customer Name" required/>

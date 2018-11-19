@@ -17,6 +17,7 @@
   color: yellow;
   font-family: 'Monoton', cursive;
   font-size: 6.3em;
+  padding-bottom: 10px;
   text-shadow: 4px 4px 4px #000000;
 }
 
@@ -24,6 +25,7 @@
   font-family: 'Roboto', cursive;
   font-size: 1.5em;
   padding-left: 127px;
+  margin-top: 10px;
 }
 
 h3 {
