@@ -1,7 +1,7 @@
 .App {
   text-align: left;
-  padding-left: 3%;
-  padding-top: 1%;
+  padding-left: 20px;
+  padding-top: 50px;
   background: url("../assets/busytatl.jpg") no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -10,7 +10,7 @@
 }
 
 .mainLogo {
-  padding-left: 3%;
+  padding-left: 50px;
 }
 
 .mainLogoH {
@@ -33,9 +33,9 @@ h3 {
 .luv {
   height: 350px;
   width: auto;
-  margin-top: -14.1%;
-  padding-left: 4%;
-  margin-bottom: -4%;
+  margin-top: -236px;
+  padding-left: 140px;
+  margin-bottom: -60px;
   padding-bottom: 1%;
   padding-top: 1%;
 }
