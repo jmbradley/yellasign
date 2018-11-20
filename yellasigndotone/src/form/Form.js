@@ -28,7 +28,7 @@ function Form(props) {
                 <label htmlFor="numberofsigns">Number of Signs</label>
               </div>
               <div className="form-group">
-                <input type="text" id="dynamic-label-input" placeholder="Sign Text" htmlFor="signtext" name="Sign Text" required/>
+                <input type="text" id="dynamic-label-input" placeholder="Sign Text" htmlFor="signtext" name="signText" onChange={props.handleChange}required/>
                 <label>Sign Text</label>
               </div>
               <div className="form-group2">

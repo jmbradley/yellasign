@@ -29,7 +29,20 @@ handleClick = () => {
     }
   }
 
+  handleChange = event => {
+    event.preventDefault();
+    this.setState({
+      inputValue: {
+        [event.target.name]: event.target.value,
+      }
+      
+    });
+  };
+
+
   render() {
+
+  console.log(this.state.inputValue);
     return (
       <div className="App">
           <div className="mainLogo">
@@ -39,9 +52,9 @@ handleClick = () => {
             <img className="luv" src={luv} alt="Luv From ATL"/>
 
           <div className="form-sign">
-              <Form handleClick={this.handleClick} arrow={this.state.arrow}/>
+              <Form handleClick={this.handleClick} arrow={this.state.arrow} handleChange={this.handleChange}/>
             <div className="sign">
-              <Sign arrow={this.state.arrow}/>
+              <Sign arrow={this.state.arrow} signText={this.state.inputValue}/>
             </div>
           </div>
         </div>
