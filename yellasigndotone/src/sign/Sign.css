@@ -12,6 +12,11 @@
     box-shadow: -10px 9px 5px -2px rgba(0,0,0,0.71);
 }
 
+.dotheform {
+    color: yellow;
+    font-size: 2em;
+}
+
 .onePoint {
     width: 80%;
     height: auto;

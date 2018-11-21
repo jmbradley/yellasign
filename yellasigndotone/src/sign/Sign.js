@@ -9,6 +9,8 @@ function Sign(props) {
 
 if (props.arrow === false) {
     return ( 
+    <div>
+        <h4 className="dotheform"> Fill out the form to see your text!</h4>
         <div className="signcard">
             <img className="luvsign2" src={luv} alt="Luv From ATL"/>
                 <h1 className="top">{props.signText.signText} </h1>
@@ -16,16 +18,20 @@ if (props.arrow === false) {
                 <h1 className="bottom"> {props.signText.signText} </h1>
             <img className="luvsign" src={luv} alt="Luv From ATL"/>
         </div>
+    </div>
     )}
 
 else {
     return ( 
+        <div>
+        <h4 className="dotheform">Fill out form the left to see your text!</h4>
         <div className="signcard1">
             <img className="luvsign3" src={luv} alt="Luv From ATL"/>
                 <h1 className="top1">{props.signText.signText}</h1>
                     <img className="img1" src ={TwoPoint} alt="Arrow"/>
                 <h1 className="bottom1"> {props.signText.signText} </h1>
             <img className="luvsign1" src={luv} alt="Luv From ATL"/>
+        </div>
         </div>
     )}
 }
