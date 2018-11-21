@@ -10,10 +10,10 @@ function Sign(props) {
 if (props.arrow === false) {
     return ( 
         <div className="signcard">
-        <img className="luvsign2" src={luv} alt="Luv From ATL"/>
-            <h1 className="top">{props.signText.signText} </h1>
-                <img src ={OnePoint} alt="Arrow"/>
-            <h1 className="bottom"> {props.signText.signText} </h1>
+            <img className="luvsign2" src={luv} alt="Luv From ATL"/>
+                <h1 className="top">{props.signText.signText} </h1>
+                    <img className="onePoint" src ={OnePoint} alt="Arrow"/>
+                <h1 className="bottom"> {props.signText.signText} </h1>
             <img className="luvsign" src={luv} alt="Luv From ATL"/>
         </div>
     )}
@@ -21,11 +21,11 @@ if (props.arrow === false) {
 else {
     return ( 
         <div className="signcard1">
-                <img className="luvsign3" src={luv} alt="Luv From ATL"/>
+            <img className="luvsign3" src={luv} alt="Luv From ATL"/>
                 <h1 className="top1">{props.signText.signText}</h1>
-            <img className="img1" src ={TwoPoint} alt="Arrow"/>
+                    <img className="img1" src ={TwoPoint} alt="Arrow"/>
                 <h1 className="bottom1"> {props.signText.signText} </h1>
-                <img className="luvsign1" src={luv} alt="Luv From ATL"/>
+            <img className="luvsign1" src={luv} alt="Luv From ATL"/>
         </div>
     )}
 }

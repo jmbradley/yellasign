@@ -12,11 +12,11 @@
     box-shadow: -10px 9px 5px -2px rgba(0,0,0,0.71);
 }
 
-img {
+.onePoint {
     width: 80%;
     height: auto;
-    margin-top: -1%;
-    margin-bottom: -1%;
+    margin-top: -3%;
+    margin-bottom: -3%;
 }
 
 .luvsign {
@@ -40,13 +40,13 @@ img {
 .top {
     margin-top: -27%;
     padding-bottom: 4%;
-    font: 4em;
+    font-size: 4em;
 }
 
 .bottom {
     margin-bottom: 7%;
     padding-bottom: 6%; 
-    font: 4em;
+    font-size: 4em;
     -moz-transform: rotate(180deg);
     -o-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
@@ -72,16 +72,16 @@ img {
 .img1 {
     width: 100%;
     height: auto;
-    padding-bottom: 8%;
-    padding-left: 6%;
-    margin-top: -21%;
-    margin-bottom: -19%;
+    padding-bottom: 0%;
+    padding-left: 5%;
+    margin-top: -24%;
+    margin-bottom: -22%;
 }
 
 .luvsign1 {
     height: 50%;
     width: auto;
-    margin-top: -18%;
+    margin-top: -25%;
     margin-bottom: -30%;
     -moz-transform: rotate(180deg);
     -o-transform: rotate(180deg);
@@ -94,26 +94,27 @@ img {
 .luvsign3 {
     height: 50%;
     width: auto;
-    margin-bottom: -16%;
+    margin-bottom: 12%;
     margin-top: -30%;
 }
 
-/* .top1 {
-    margin-top: -29%;
-    padding-bottom: 4%;
-    font: 4em;
+
+.top1 {
+    margin-top: -28%;
+    padding-bottom: 0%;
+    font-size: 4em;
 }
 
 .bottom1 {
     margin-bottom: 7%;
-    padding-bottom: 6%; 
-    font: 4em;
+    padding-bottom: 16%; 
+    font-size: 4em;
     -moz-transform: rotate(180deg);
     -o-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
     filter: FlipH;
     -ms-filter: "FlipH";
-} */
+} 
 
 
