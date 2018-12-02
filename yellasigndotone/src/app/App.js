@@ -11,11 +11,14 @@ class App extends Component {
     super(props);
     this.state = {
       arrow: false,
-      inputValues: ["Your Text Here"],
-      inputValue: {
-        text: ""
-      }
+      inputValue: ""
     };
+  }
+
+  componentDidMount() {
+    this.setState({
+      inputValue: { signText: "Your Text" }
+    });
   }
 
   handleClick = () => {
@@ -30,20 +33,15 @@ class App extends Component {
 
   handleChange = event => {
     event.preventDefault();
-    const inputValues = ["Your Text Here"];
-    const index = inputValues.indexOf([0]);
-    const newinputValue = event.target.value;
-    if (~index) {
-      inputValues[index] = newinputValue;
-    }
     this.setState({
-      inputValue: newinputValue
-      // inputValues: { inputValues: [...this.state.inputValues, newinputValue] }
+      inputValue: {
+        [event.target.name]: event.target.value
+      }
     });
   };
 
   render() {
-    console.log(this.state.inputValues);
+    console.log(this.state.inputValue.signText);
     return (
       <div className="App">
         <div className="mainLogo">
@@ -59,7 +57,10 @@ class App extends Component {
             handleChange={this.handleChange}
           />
           <div className="sign">
-            <Sign arrow={this.state.arrow} signText={this.state.inputValues} />
+            <Sign
+              arrow={this.state.arrow}
+              signText={this.state.inputValue.signText}
+            />
           </div>
         </div>
       </div>
