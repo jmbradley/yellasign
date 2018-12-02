@@ -15,7 +15,7 @@ function Form(props) {
         method="POST"
         accepcharset="UTF-8"
       >
-        <h2 className="formheader"> Fill This Out</h2>
+        <h2 className="formheader"> Fill This Out!</h2>
         <div className="form-group">
           <input
             type="text"
@@ -61,7 +61,7 @@ function Form(props) {
           <input
             type="text"
             id="dynamic-label-input"
-            placeholder="Your Text Here"
+            placeholder="**Your Text Here**"
             htmlFor="signtext"
             name="signText"
             onChange={props.handleChange}
