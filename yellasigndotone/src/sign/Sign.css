@@ -40,13 +40,13 @@
 .top {
   margin-top: -27%;
   padding-bottom: 4%;
-  font-size: 4em;
+  font-size: 4.2em;
 }
 
 .bottom {
   margin-bottom: 7%;
   padding-bottom: 6%;
-  font-size: 4em;
+  font-size: 4.2em;
   -moz-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
@@ -101,13 +101,13 @@
 .top1 {
   margin-top: -28%;
   padding-bottom: 0%;
-  font-size: 4em;
+  font-size: 4.2em;
 }
 
 .bottom1 {
   margin-bottom: 7%;
   padding-bottom: 16%;
-  font-size: 4em;
+  font-size: 4.2em;
   -moz-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   -webkit-transform: rotate(180deg);

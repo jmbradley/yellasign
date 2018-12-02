@@ -17,7 +17,7 @@ class App extends Component {
 
   componentDidMount() {
     this.setState({
-      inputValue: { signText: "Your Text" }
+      inputValue: { signText: "Enter Your Text In Form" }
     });
   }
 
