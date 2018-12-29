@@ -64,19 +64,25 @@ input {
   height: 50px;
 }
 
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 p {
   font-size: 10px;
   font-weight: bold;
   text-transform: uppercase;
   color: #999;
 }
-/* i {
-    position: absolute;
-    z-index: 1;
-    top: 7px;
-    left: 9px;
-    color: #999;
-  } */
+
 .container {
   margin: 50px auto;
   width: 280px;

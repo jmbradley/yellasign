@@ -15,7 +15,7 @@ function Form(props) {
         method="POST"
         accepcharset="UTF-8"
       >
-        <h2 className="formheader"> Order Form</h2>
+        <h2 className="formheader">Order Form</h2>
         <div className="form-group">
           <input
             type="text"
