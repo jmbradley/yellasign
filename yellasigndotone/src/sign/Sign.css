@@ -45,7 +45,7 @@
 
 .bottom {
   margin-bottom: 7%;
-  padding-bottom: 6%;
+  padding-bottom: 10%;
   font-size: 4.2em;
   -moz-transform: rotate(180deg);
   -o-transform: rotate(180deg);
@@ -81,7 +81,7 @@
 .luvsign1 {
   height: 50%;
   width: auto;
-  margin-top: -25%;
+  margin-top: -22%;
   margin-bottom: -30%;
   -moz-transform: rotate(180deg);
   -o-transform: rotate(180deg);
