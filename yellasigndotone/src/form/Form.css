@@ -208,3 +208,11 @@ p {
 .switch-green > .switch-input:checked ~ .switch-label {
   background: #4fb845;
 }
+
+.btn {
+  background-color: #f0ec06;
+}
+
+.btn:hover {
+  background-color: #eeec6b;
+}
