@@ -78,9 +78,13 @@ function Form(props) {
         <label className="form-group" htmlFor="dateneeded">
           Special Requests?
         </label>
-        <textarea className="comments" id="comments">
-          Let us know!
-        </textarea>
+        <textarea
+          type="text"
+          placeholder="Let us know!"
+          className="comments"
+          id="comments"
+          name="Comments"
+        />
         <div className="container">
           <p>
             Arrow Selector
