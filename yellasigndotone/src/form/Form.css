@@ -85,6 +85,7 @@ p {
 
 .container {
   margin: 50px auto;
+  margin-bottom: 5px;
   width: 280px;
   text-align: center;
 }
