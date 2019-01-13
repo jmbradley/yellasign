@@ -75,6 +75,12 @@ function Form(props) {
           </label>
           <input type="date" name="Date Needed" id="dateneeded" />
         </div>
+        <label className="form-group" htmlFor="dateneeded">
+          Special Requests?
+        </label>
+        <textarea className="comments" id="comments">
+          Let us know!
+        </textarea>
         <div className="container">
           <p>
             Arrow Selector

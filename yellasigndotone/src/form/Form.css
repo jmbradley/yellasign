@@ -41,7 +41,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  padding-top: 20px;
+  padding-top: 5px;
 }
 
 label {
@@ -82,6 +82,12 @@ p {
   font-weight: bold;
   text-transform: uppercase;
   color: #999;
+}
+
+.comments {
+  font-family: "Roboto", cursive;
+  width: 200px;
+  height: 50px;
 }
 
 .container {
