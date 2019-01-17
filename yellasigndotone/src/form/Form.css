@@ -17,6 +17,8 @@
   font-size: 2em;
   margin-top: -2%;
   margin-bottom: 4%;
+  text-shadow: shadow1, shadow2, shadow3;
+  text-shadow: 4px 3px 0px rgb(0, 0, 0), 7px 6px 0px rgba(241, 243, 130, 0.15);
 }
 
 .formheader2 {
@@ -25,12 +27,9 @@
   color: yellow;
   font-weight: bold;
   font-size: 1.2em;
-  /* margin-top: 0;
-  margin-bottom: 4%; */
   text-align: center;
-  /* margin-left: 10%;
-  margin-right: 10%; */
   margin: 0 10% 4% 10%;
+  line-height: 35px;
 }
 
 .form-fields {
@@ -79,6 +78,10 @@ input {
   text-align: center;
 }
 
+input:hover {
+  background-color: yellow;
+}
+
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
@@ -103,6 +106,10 @@ p {
   width: 200px;
   height: 50px;
   text-align: center;
+}
+
+.comments:hover {
+  background-color: yellow;
 }
 
 .container {
