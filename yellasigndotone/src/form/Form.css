@@ -19,6 +19,20 @@
   margin-bottom: 4%;
 }
 
+.formheader2 {
+  font-family: "Roboto", cursive;
+  letter-spacing: 3px;
+  color: yellow;
+  font-weight: bold;
+  font-size: 1.2em;
+  /* margin-top: 0;
+  margin-bottom: 4%; */
+  text-align: center;
+  /* margin-left: 10%;
+  margin-right: 10%; */
+  margin: 0 10% 4% 10%;
+}
+
 .form-fields {
   display: flex;
   flex-direction: column;

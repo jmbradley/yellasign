@@ -16,6 +16,12 @@ function Form(props) {
         accepcharset="UTF-8"
       >
         <h2 className="formheader">Order Form</h2>
+        <h3 className="formheader2">
+          <u>Step 1</u> <br /> Enter Your Order <br />
+          <u>Step 2</u> <br /> We call you, confirm details and collect payment.{" "}
+          <br />
+          <u>Step 3</u> <br /> We hand deliver directly to you anywhere in ATL!
+        </h3>
         <div className="form-group">
           <input
             type="text"
