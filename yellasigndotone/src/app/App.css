@@ -2,7 +2,7 @@
   text-align: left;
   padding-left: 20px;
   padding-top: 50px;
-  background: url("../assets/busytatl.jpg") no-repeat center center; 
+  background: url("../assets/busytatl.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -15,14 +15,15 @@
 
 .mainLogoH {
   color: yellow;
-  font-family: 'Monoton', cursive;
+  font-family: "Monoton", cursive;
   font-size: 6.3em;
   padding-bottom: 10px;
-  text-shadow: 4px 4px 4px #000000;
+  text-shadow: -10px 10px 0px #000000, -20px 20px 0px #000000,
+    -20px 20px 0px #000000;
 }
 
 .mainLogoHHH {
-  font-family: 'Roboto', cursive;
+  font-family: "Roboto", cursive;
   font-size: 1.5em;
   padding-left: 127px;
   margin-top: 10px;
@@ -48,5 +49,4 @@ h3 {
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 5%;
-
 }

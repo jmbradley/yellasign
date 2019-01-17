@@ -61,7 +61,18 @@ function Form(props) {
             name="Number of Signs"
             required
           />
-          <label htmlFor="numberofsigns">Number of Signs</label>
+          <label htmlFor="dynamic-label-input">Number of Signs</label>
+        </div>
+        <div className="form-group">
+          <input
+            type="text"
+            min="1"
+            id="dynamic-label-input"
+            placeholder="Phone Number"
+            name="Phone Number"
+            required
+          />
+          <label htmlFor="numberofsigns">Phone Number</label>
         </div>
         <div className="form-group">
           <input
@@ -82,7 +93,7 @@ function Form(props) {
           <input type="date" name="Date Needed" id="dateneeded" />
         </div>
         <label className="form-group" htmlFor="dateneeded">
-          Special Requests?
+          Additional Signs or Special Requests?
         </label>
         <textarea
           type="text"
